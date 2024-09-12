@@ -12,7 +12,8 @@ function Mission1(arr){
     return arr.filter((num)=> num % 2 == 0 )
 }
 
-function Mission2(arr){
+function Mission2(mach){
+    let arr = mach.split(" ");
     return arr.filter((elm)=> elm.length == 4).length;
 }
 
